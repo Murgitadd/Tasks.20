@@ -21,3 +21,7 @@ WHERE AvgPoint>51 AND AvgPoint<90
 --Task 3
 SELECT * FROM Students
 WHERE Name LIKE 'A%N';
+
+--Task 4
+SELECT * FROM Students
+WHERE Age>20 AND AvgPoint<51
